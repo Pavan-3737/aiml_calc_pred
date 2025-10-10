@@ -4,6 +4,7 @@ import pickle
 
 df=pickle.load(open('df.pkl','rb'))
 pipe=pickle.load(open('pipe.pkl','rb'))
+print(pipe)
 
 st.title("Laptop Price Predictor App")
 
